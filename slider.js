@@ -3,8 +3,8 @@ var lewo = document.getElementById('lewo');
 var prawo = document.getElementById('prawo');
 var i = 1;
 
-lewo.addEventListener("click", odejmij)
-prawo.addEventListener("click", dodaj)
+lewo.addEventListener(click, odejmij)
+prawo.addEventListener(click, dodaj)
 
 function odejmij(){
     i = i - 1;
