@@ -4,6 +4,7 @@ var prawo = document.getElementById('prawo');
 var i = 1;
 
 lewo.addEventListener(click, odejmij);
+console.log(prawo);
 prawo.addEventListener(click, dodaj);
 
 function odejmij(){
