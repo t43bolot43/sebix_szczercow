@@ -3,9 +3,9 @@ var lewo = document.getElementById('lewo');
 var prawo = document.getElementById('prawo');
 var i = 1;
 
-lewo.addEventListener(click, odejmij);
+lewo.addEventListener("click", odejmij);
 console.log(prawo);
-prawo.addEventListener(click, dodaj);
+prawo.addEventListener("click", dodaj);
 
 function odejmij(){
     i = i - 1;
