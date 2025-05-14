@@ -10,9 +10,11 @@ prawo.addEventListener("click", dodaj);
 
 function odejmij(){
     i = i - 1;
-    div.innerHTML = "<img src="+ i + "'.jpeg'/>";
+    div.innerHTML = "<button id="lewo">Poprzedni</button>
+        <button id="prawo">Następny</button><img src="+ i + "'.jpeg'/>";
 }
 function dodaj(){
     i = i + 1;
-    div.innerHTML = "<img src='" + i + ".jpeg'/>";
+    div.innerHTML = "<button id="lewo">Poprzedni</button>
+        <button id="prawo">Następny</button><img src='" + i + ".jpeg'/>";
 }
